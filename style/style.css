@@ -1,0 +1,30 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::::::: Kirill Miniaev | Miniaev Design ::::::::*/
+/*: kirill@miniaevdesign.com | miniaevdesign.com :*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::: TYPOGRAPHY ::::::*/
+h1, h2, h3, h4, h5, h6, p, span, a, input, button {
+}
+
+.bold {
+	font-weight: XXX;
+}
+
+.italic {
+	font-style: italic;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: XXX;
+	text-decoration: XXX;
+}
+
+/*:::::: HIGH LEVEL ELTS ::::::*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/*:::::: BODY ELTS ::::::*/
