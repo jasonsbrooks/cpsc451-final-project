@@ -13,9 +13,9 @@ $(document).ready(function() {
 		}
 	});
 	$("#bottom-image-gallery-scroller").scroll(function() {
-		$("#left-gallery-scroll-arrow").css('left', 15+$(this).scrollLeft());
+		$("#left-gallery-scroll-arrow").css('left', 8+$(this).scrollLeft());
 		$("#right-gallery-scroll-arrow").css('left', 595+$(this).scrollLeft());
-		if ($(this).scrollLeft() == 0) {
+		if ($(this).scrollLeft() < 2) {
 			$('#left-gallery-scroll-arrow').hide();
 		} else {
 			$('#left-gallery-scroll-arrow').show();

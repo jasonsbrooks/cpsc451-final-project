@@ -1,0 +1,86 @@
+/* Fonts */
+
+@font-face {
+	font-family: Bookerly-Regular;
+	src: url(../fonts/Bookerly-Regular.ttf);
+}
+
+/* Page Setup */
+body {
+	overflow-y: hidden;
+}
+
+/* Nav Bar */
+
+.navbar {
+	background-color: #333;
+	border: 0;
+	color: white;
+}
+
+.navbar { 
+	min-height: 60px !important;
+}
+
+.navbar-collapse {
+	line-height: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.navbar-left {
+	padding-left: 20px;
+
+}
+
+#back-arrow-page {
+	padding-right: 10px;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.back-link, .back-link:hover, .back-link:visited {
+	color: white;
+}
+
+/* Main content */
+
+.pushed-content {
+	margin-top: 60px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	font-family: Bookerly-Regular;
+	font-size: 20px;
+}
+
+/* Image stack */
+.history-stack-layer {
+	max-width: 80%;
+	display: block;
+	margin: auto;
+}
+
+#image-stack-back {
+	max-width: 73%;
+	padding-top: 25px;
+}
+
+#front-image-container {
+	position: fixed;
+	bottom: 0;
+/*	-webkit-box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);
+	box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);*/
+}
+
+#back-image-container {
+
+}
+
+

@@ -61,7 +61,7 @@ body {
 }
 
 .navbar {
-	background-color: #7C452B;
+	background-color: #333;
 	border: 0;
 	color: white;
 }
@@ -78,7 +78,6 @@ body {
 
 .navbar-left {
 	padding-left: 20px;
-
 }
 
 .navbar-right {
@@ -161,10 +160,15 @@ p.description_content{
 	display: inline-block;
 }
 
+#bottom-image-gallery-scroller > img:hover, #bottom-image-gallery-scroller > * > img:hover {
+	cursor: pointer;
+}
+
+
 #left-gallery-scroll-arrow {
 	position: absolute;
 	top: 50px;
-	left: 15px;
+	left: 8px;
 	color: white;
 	-webkit-text-stroke: 2px white;
 	font-size: 20px;
