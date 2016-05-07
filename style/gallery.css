@@ -1,1 +1,173 @@
-gallery.css
+@font-face {
+	font-family: Bookerly-Regular;
+	src: url(../fonts/Bookerly-Regular.ttf);
+}
+
+@font-face {
+	font-family: Bookerly-RegularItalic;
+	src: url(../fonts/Bookerly-RegularItalic.ttf);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic);
+
+
+body {
+	background-color: #FAFAFA;
+	overflow-y: hidden;
+}
+
+/* Main Gallery */
+
+.explore-gallery-container {
+	padding-top: 60px;
+}
+
+#gallery-title {
+	font-family: Bookerly-Regular;
+	text-align: center; 
+	font-size: 30.38px;
+	padding-top: 25px;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* Side Gallery */
+
+.side-gallery {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 780px;
+	padding-top: 50px;
+}
+
+#gallery-link {
+	max-width: 85%;
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.image-caption {
+	font-family: Bookerly-RegularItalic;
+	text-align: center;
+	font-size: 10.5px;
+}
+
+.navbar {
+	background-color: #7C452B;
+	border: 0;
+	color: white;
+}
+
+.navbar { 
+	min-height: 60px !important;
+}
+
+.navbar-collapse {
+	line-height: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.navbar-left {
+	padding-left: 20px;
+
+}
+
+.navbar-right {
+	margin-right: 0px;
+	padding-right: 20px;
+}
+
+#back-arrow-page {
+	padding-right: 10px;
+}
+
+a, a:hover, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+/* Main Gallery */
+
+div#main-image-show{  
+    position: relative;
+	max-width: 95%;
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#main-image {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+div.description{  
+    position: absolute; 
+    bottom: 0px;
+    left: 0px;  
+    width: 100%;  
+    background-color: black;  
+    font-family: 'tahoma';  
+    font-size: 15px;  
+    color: white;  
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* IE transparency */
+    height: 67px;
+}
+
+p.description_content{  
+    padding:10px;  
+    margin:0px;  
+    overflow: hidden;
+}
+
+.main-image-caption {
+	font-family: Bookerly-RegularItalic;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+	height: 67px;
+}
+
+/* Main Gallery Bottom Slider */
+
+#bottom-image-gallery-scroller {
+	max-width: 95%;
+	padding-top: 30px;
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: scroll;
+	position: relative;
+}
+
+#bottom-image-gallery-scroller > img {
+	width: 83px;
+	display: inline-block;
+}
+
+#left-gallery-scroll-arrow {
+	position: absolute;
+	top: 50px;
+	left: 15px;
+	color: white;
+	-webkit-text-stroke: 2px white;
+	font-size: 20px;
+}
+
+
+#right-gallery-scroll-arrow {
+	position: absolute;
+	top: 50px;
+	left: 595px;
+	color: white;
+	-webkit-text-stroke: 2px white;
+	font-size: 20px;
+}
+
+
