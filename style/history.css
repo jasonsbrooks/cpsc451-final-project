@@ -71,12 +71,24 @@ h1 {
 	padding-top: 25px;
 }
 
+.three-image-history {
+	padding-top: 10px !important;
+	max-width: 65% !important;
+}
+
 #front-image-container {
 	position: fixed;
 	bottom: 0;
 /*	-webkit-box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);
 	box-shadow: 13px -6px 42px 1px rgba(0,0,0,0.75);*/
+}
+
+#image-stack-middle {
+	position: absolute;
+	top: 110px;
+	left: 150px;
+	width: 760px;
 }
 
 #back-image-container {
