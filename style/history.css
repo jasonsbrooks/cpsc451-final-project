@@ -37,12 +37,12 @@ body {
 	padding-right: 10px;
 }
 
-a, a:hover, a:visited {
+a, a:hover, a:visited, a:active {
 	text-decoration: none;
 	cursor: pointer;
 }
 
-.back-link, .back-link:hover, .back-link:visited {
+.back-link, .back-link:hover, .back-link:visited, .back-link:active {
 	color: white;
 }
 

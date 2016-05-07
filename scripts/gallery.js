@@ -1,4 +1,17 @@
 $(document).ready(function() {
+	$('.row').fadeIn(1000);
+
+	$('a').click(function() {
+		event.preventDefault();
+		newLocation = this.href;
+		$('.row').fadeOut(1000, newpage);
+	})
+
+	function newpage() {
+		window.location = newLocation;
+	}
+
+
 	$('.description').on('click', function() {
 		if ($(this).hasClass("expanded")) {
 			$(this).animate({height: 67}, 200);
@@ -12,6 +25,7 @@ $(document).ready(function() {
 			$('.main-image-caption').animate({height: 125}, 0);
 		}
 	});
+
 	$("#bottom-image-gallery-scroller").scroll(function() {
 		$("#left-gallery-scroll-arrow").css('left', 8+$(this).scrollLeft());
 		$("#right-gallery-scroll-arrow").css('left', 595+$(this).scrollLeft());
