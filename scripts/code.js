@@ -3,12 +3,12 @@
 /*::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 $(document).ready(function() {
-	$('.row').fadeIn(1000);
+	$('.row').fadeIn(500);
 
 	$('a').click(function() {
 		event.preventDefault();
 		newLocation = this.href;
-		$('.row').fadeOut(1000, newpage);
+		$('.row').fadeOut(500, newpage);
 	})
 
 	function newpage() {
